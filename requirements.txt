@@ -3,3 +3,5 @@ youtube-transcript-api
 pytube
 langchain
 openai
+langchain-community
+langchain-openai
