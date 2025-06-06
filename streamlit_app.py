@@ -40,7 +40,7 @@ with st.form("user_input"):
     YOUTUBE_URL = st.text_input("YouTube Video URL", value="", placeholder="Enter YouTube video URL here")
     submitted = st.form_submit_button("Generate Quiz")
 
-API_KEY = "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"
+API_KEY = "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"
 
 if submitted or ('quiz_data_list' in st.session_state):
     if not YOUTUBE_URL:
